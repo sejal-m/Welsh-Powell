@@ -118,12 +118,22 @@ void Graph::greedyColoring()
         }
         c++;
     }
-
+    c--;
     //printing output
+    cout<<endl<<"Assigning colors to vertices"<<endl;
     for(int i = 0;i < V; i++) {
         cout<<"vertex: "<<desc_degrees[i].v<<" C"<<desc_degrees[i].color<<endl;
     }
-    cout<<c - 1<< " colors needed to color given graph."<<endl;
+    cout<<endl<<c<< " colors needed to color given graph."<<endl;
+
+    for(int col = 1; col <= c; col++) {
+        cout<<"C"<<col<<" : ";
+        for(int i = 0;i < V; i++) {
+            if(desc_degrees[i].color == col)
+                cout<<desc_degrees[i].v<<" ";
+        }
+        cout<<endl;
+    }
 }
 
 // Driver program to test above function
