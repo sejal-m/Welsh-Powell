@@ -4,13 +4,12 @@
 #include <fstream>
 using namespace std;
 
-// A class that represents an undirected graph
 class Graph
 {
-    int V;    // No. of vertices
-    vector<int> *adj;    // A dynamic array of adjacency lists
+    int V;   
+    vector<int> *adj;    
 public:
-    // Constructor and destructor
+  
     Graph(int V)
     {
         this->V = V;
@@ -21,27 +20,14 @@ public:
         delete [] adj;
     }
 
-    void printGraph()
-    {
-        for (int v = 0; v < V; ++v)
-        {
-            cout << "\n Adjacency list of vertex "<< v ;
-            for (auto x : adj[v])
-                cout << "-> " << x;
-            printf("\n");
-         }
-    }
-    // function to add an edge to graph
     void addEdge(int v, int w);
-
-    // Prints greedy coloring of the vertices
-    void greedyColoring();
+    void welshPowellColoring();
 };
 
 void Graph::addEdge(int v, int w)
 {
     adj[v].push_back(w);
-    adj[w].push_back(v);  // Note: the graph is undirected
+    adj[w].push_back(v); 
 }
 
 struct vertexDegree
@@ -69,7 +55,7 @@ int find_index(vertexDegree desc_degrees[], int elem, int V) {
     return i;
 }
 
-void Graph::greedyColoring()
+void Graph::welshPowellColoring()
 {
     int result[V];
     int chosen_vertex;
@@ -119,7 +105,7 @@ void Graph::greedyColoring()
         c++;
     }
     c--;
-    //printing output
+    
     cout<<endl<<"Assigning colors to vertices"<<endl;
     for(int i = 0;i < V; i++) {
         cout<<"vertex: "<<desc_degrees[i].v<<" C"<<desc_degrees[i].color<<endl;
@@ -136,7 +122,6 @@ void Graph::greedyColoring()
     }
 }
 
-// Driver program to test above function
 int main()
 {
     Graph G(100);
@@ -146,7 +131,7 @@ int main()
     while (infile >> a >> b)
         G.addEdge(a, b); 
 
-    G.greedyColoring();
+    G.welshPowellColoring();
     return 0;
 
 }   
