@@ -20,14 +20,14 @@ public:
         delete [] adj;
     }
 
-    void addEdge(int v, int w);
+    void addEdge(int u, int v);
     void welshPowellColoring();
 };
 
-void Graph::addEdge(int v, int w)
+void Graph::addEdge(int u, int v)
 {
-    adj[v].push_back(w);
-    adj[w].push_back(v); 
+    adj[u].push_back(v);
+    adj[v].push_back(u); 
 }
 
 struct vertexDegree
