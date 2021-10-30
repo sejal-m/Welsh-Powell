@@ -1,122 +1,177 @@
-Sorted vertices 
-89 4 23 62 65 63 31 18 94 93 53 50 0 19 22 81 48 42 30 61 56 15 77 8 97 46 95 39 59 1 52 51 67 33 12 24 2 28 20 98 26 27 88 87 80 76 55 41 72 92 90 84 68 64 96 69 11 6 38 37 16 78 32 54 49 13 58 9 82 83 75 44 35 71 17 25 43 70 36 57 99 86 45 74 3 79 21 91 34 73 14 60 29 40 7 85 10 66 5 47 
+Sorted vertices (descending order of degrees) 
+58 132 90 141 104 112 40 24 80 118 109 149 48 116 9 130 122 70 63 53 143 31 98 72 129 41 1 74 2 137 76 64 8 50 22 111 0 68 66 96 55 99 100 147 23 102 89 95 77 38 6 4 105 110 114 44 127 145 16 85 101 25 15 92 11 121 117 106 28 18 67 61 51 131 59 60 88 21 82 138 107 45 119 36 73 42 103 135 54 35 27 26 29 79 148 123 7 146 32 86 93 39 78 144 134 34 81 120 94 3 10 115 30 113 69 12 108 62 125 124 83 57 91 19 14 5 43 47 49 84 140 46 33 17 75 65 37 87 56 133 97 52 20 13 71 142 126 139 136 128 
 
 Assigning colors to vertices
-vertex: 89 C1
-vertex: 4 C1
-vertex: 23 C2
-vertex: 62 C3
-vertex: 65 C3
-vertex: 63 C4
+vertex: 58 C1
+vertex: 132 C2
+vertex: 90 C1
+vertex: 141 C2
+vertex: 104 C3
+vertex: 112 C4
+vertex: 40 C3
+vertex: 24 C2
+vertex: 80 C4
+vertex: 118 C3
+vertex: 109 C5
+vertex: 149 C4
+vertex: 48 C5
+vertex: 116 C6
+vertex: 9 C4
+vertex: 130 C7
+vertex: 122 C5
+vertex: 70 C2
+vertex: 63 C3
+vertex: 53 C1
+vertex: 143 C3
 vertex: 31 C5
-vertex: 18 C5
-vertex: 94 C2
-vertex: 93 C3
-vertex: 53 C4
-vertex: 50 C6
-vertex: 0 C4
-vertex: 19 C3
-vertex: 22 C1
-vertex: 81 C2
-vertex: 48 C4
-vertex: 42 C7
-vertex: 30 C7
-vertex: 61 C7
-vertex: 56 C1
-vertex: 15 C6
-vertex: 77 C3
-vertex: 8 C8
-vertex: 97 C4
-vertex: 46 C9
-vertex: 95 C5
-vertex: 39 C9
-vertex: 59 C1
+vertex: 98 C2
+vertex: 72 C7
+vertex: 129 C3
+vertex: 41 C6
 vertex: 1 C6
-vertex: 52 C6
-vertex: 51 C2
-vertex: 67 C10
-vertex: 33 C9
-vertex: 12 C8
-vertex: 24 C1
-vertex: 2 C8
-vertex: 28 C8
-vertex: 20 C2
-vertex: 98 C10
-vertex: 26 C11
-vertex: 27 C8
-vertex: 88 C9
-vertex: 87 C3
-vertex: 80 C11
-vertex: 76 C7
-vertex: 55 C11
-vertex: 41 C12
-vertex: 72 C5
-vertex: 92 C5
-vertex: 90 C5
-vertex: 84 C10
-vertex: 68 C10
+vertex: 74 C5
+vertex: 2 C6
+vertex: 137 C8
+vertex: 76 C8
 vertex: 64 C9
-vertex: 96 C12
-vertex: 69 C7
-vertex: 11 C13
-vertex: 6 C11
+vertex: 8 C5
+vertex: 50 C9
+vertex: 22 C6
+vertex: 111 C10
+vertex: 0 C11
+vertex: 68 C6
+vertex: 66 C11
+vertex: 96 C10
+vertex: 55 C4
+vertex: 99 C9
+vertex: 100 C10
+vertex: 147 C9
+vertex: 23 C11
+vertex: 102 C1
+vertex: 89 C12
+vertex: 95 C10
+vertex: 77 C8
 vertex: 38 C13
-vertex: 37 C3
-vertex: 16 C12
-vertex: 78 C13
-vertex: 32 C12
-vertex: 54 C14
-vertex: 49 C7
-vertex: 13 C11
-vertex: 58 C15
-vertex: 9 C14
-vertex: 82 C11
-vertex: 83 C14
-vertex: 75 C2
-vertex: 44 C1
-vertex: 35 C8
-vertex: 71 C2
-vertex: 17 C14
-vertex: 25 C14
-vertex: 43 C8
-vertex: 70 C9
-vertex: 36 C6
-vertex: 57 C15
-vertex: 99 C15
-vertex: 86 C8
-vertex: 45 C8
-vertex: 74 C15
-vertex: 3 C12
-vertex: 79 C6
-vertex: 21 C16
-vertex: 91 C11
-vertex: 34 C15
+vertex: 6 C13
+vertex: 4 C9
+vertex: 105 C1
+vertex: 110 C2
+vertex: 114 C14
+vertex: 44 C15
+vertex: 127 C8
+vertex: 145 C7
+vertex: 16 C14
+vertex: 85 C7
+vertex: 101 C12
+vertex: 25 C2
+vertex: 15 C4
+vertex: 92 C7
+vertex: 11 C10
+vertex: 121 C12
+vertex: 117 C6
+vertex: 106 C11
+vertex: 28 C15
+vertex: 18 C12
+vertex: 67 C8
+vertex: 61 C14
+vertex: 51 C8
+vertex: 131 C13
+vertex: 59 C3
+vertex: 60 C8
+vertex: 88 C9
+vertex: 21 C6
+vertex: 82 C15
+vertex: 138 C10
+vertex: 107 C9
+vertex: 45 C16
+vertex: 119 C12
+vertex: 36 C15
 vertex: 73 C13
-vertex: 14 C2
-vertex: 60 C9
-vertex: 29 C13
-vertex: 40 C16
-vertex: 7 C14
-vertex: 85 C9
-vertex: 10 C9
-vertex: 66 C16
-vertex: 5 C8
-vertex: 47 C10
+vertex: 42 C17
+vertex: 103 C4
+vertex: 135 C16
+vertex: 54 C15
+vertex: 35 C14
+vertex: 27 C1
+vertex: 26 C15
+vertex: 29 C4
+vertex: 79 C13
+vertex: 148 C14
+vertex: 123 C16
+vertex: 7 C17
+vertex: 146 C12
+vertex: 32 C11
+vertex: 86 C1
+vertex: 93 C16
+vertex: 39 C2
+vertex: 78 C11
+vertex: 144 C17
+vertex: 134 C17
+vertex: 34 C18
+vertex: 81 C18
+vertex: 120 C10
+vertex: 94 C14
+vertex: 3 C19
+vertex: 10 C20
+vertex: 115 C17
+vertex: 30 C13
+vertex: 113 C9
+vertex: 69 C18
+vertex: 12 C19
+vertex: 108 C21
+vertex: 62 C16
+vertex: 125 C20
+vertex: 124 C7
+vertex: 83 C18
+vertex: 57 C21
+vertex: 91 C19
+vertex: 19 C14
+vertex: 14 C20
+vertex: 5 C14
+vertex: 43 C20
+vertex: 47 C1
+vertex: 49 C9
+vertex: 84 C17
+vertex: 140 C21
+vertex: 46 C6
+vertex: 33 C13
+vertex: 17 C1
+vertex: 75 C13
+vertex: 65 C21
+vertex: 37 C16
+vertex: 87 C19
+vertex: 56 C18
+vertex: 133 C19
+vertex: 97 C3
+vertex: 52 C2
+vertex: 20 C19
+vertex: 13 C17
+vertex: 71 C11
+vertex: 142 C12
+vertex: 126 C17
+vertex: 139 C14
+vertex: 136 C13
+vertex: 128 C15
 
-16 colors needed to color given graph.
-C1 : 89 4 22 56 59 24 44 
-C2 : 23 94 81 51 20 75 71 14 
-C3 : 62 65 93 19 77 87 37 
-C4 : 63 53 0 48 97 
-C5 : 31 18 95 72 92 90 
-C6 : 50 15 1 52 36 79 
-C7 : 42 30 61 76 69 49 
-C8 : 8 12 2 28 27 35 43 86 45 5 
-C9 : 46 39 33 88 64 70 60 85 10 
-C10 : 67 98 84 68 47 
-C11 : 26 80 55 6 13 82 91 
-C12 : 41 96 16 32 3 
-C13 : 11 38 78 73 29 
-C14 : 54 9 83 17 25 7 
-C15 : 58 57 99 74 34 
-C16 : 21 40 66 
+21 colors needed to color given graph.
+C1 : 58 90 53 102 105 27 86 47 17 
+C2 : 132 141 24 70 98 110 25 39 52 
+C3 : 104 40 118 63 143 129 59 97 
+C4 : 112 80 149 9 55 15 103 29 
+C5 : 109 48 122 31 74 8 
+C6 : 116 41 1 2 22 68 117 21 46 
+C7 : 130 72 145 85 92 124 
+C8 : 137 76 77 127 67 51 60 
+C9 : 64 50 99 147 4 88 107 113 49 
+C10 : 111 96 100 95 11 138 120 
+C11 : 0 66 23 106 32 78 71 
+C12 : 89 101 121 18 119 146 142 
+C13 : 38 6 131 73 79 30 33 75 136 
+C14 : 114 16 61 35 148 94 19 5 139 
+C15 : 44 28 82 36 54 26 128 
+C16 : 45 135 123 93 62 37 
+C17 : 42 7 144 134 115 84 13 126 
+C18 : 34 81 69 83 56 
+C19 : 3 12 91 87 133 20 
+C20 : 10 125 14 43 
+C21 : 108 57 140 65 

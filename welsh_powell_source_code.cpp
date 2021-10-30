@@ -70,7 +70,7 @@ void Graph::welshPowellColoring()
 
     sort(desc_degrees, desc_degrees+V, compareByDegree);
 
-    cout << "Sorted vertices \n";
+    cout << "Sorted vertices (descending order of degrees) \n";
     for (int i = 0; i <V; i++)
     {
         cout << desc_degrees[i].v << " ";
@@ -124,14 +124,17 @@ void Graph::welshPowellColoring()
 
 int main()
 {
-    Graph G(100);
-
     ifstream infile("welsh_powell_input.txt");
+    int n;
+    infile>>n;
+    Graph G(n);
+
     int a, b;
     while (infile >> a >> b)
         G.addEdge(a, b); 
 
     G.welshPowellColoring();
-    return 0;
 
+    infile.close();
+    return 0;
 }   
