@@ -1,5 +1,5 @@
 #include <iostream>
-#include <list>
+#include <vector>
 #include <algorithm>
 #include <fstream>
 using namespace std;
@@ -8,13 +8,13 @@ using namespace std;
 class Graph
 {
     int V;    // No. of vertices
-    list<int> *adj;    // A dynamic array of adjacency lists
+    vector<int> *adj;    // A dynamic array of adjacency lists
 public:
     // Constructor and destructor
     Graph(int V)
     {
         this->V = V;
-        adj = new list<int>[V];
+        adj = new vector<int>[V];
     }
     ~Graph()
     {
@@ -123,44 +123,20 @@ void Graph::greedyColoring()
     for(int i = 0;i < V; i++) {
         cout<<"vertex: "<<desc_degrees[i].v<<" C"<<desc_degrees[i].color<<endl;
     }
-    cout<<"No. of colors needed: "<<c - 1;
+    cout<<c - 1<< " colors needed to color given graph."<<endl;
 }
 
 // Driver program to test above function
 int main()
 {
-    /* Graph g1(5);
-    g1.addEdge(0, 1);
-    g1.addEdge(0, 2);
-    g1.addEdge(1, 2);
-    g1.addEdge(1, 3);
-    g1.addEdge(2, 3);
-    g1.addEdge(3, 4);
-    g1.printGraph();
-    cout << "Coloring of Graph 1 \n";
-    g1.greedyColoring();
+    Graph G(100);
 
-    Graph g2(5);
-    g2.addEdge(0, 1);
-    g2.addEdge(0, 2);
-    g2.addEdge(1, 2);
-    g2.addEdge(1, 4);
-    g2.addEdge(2, 4);
-    g2.addEdge(4, 3);
-    g2.printGraph();
-    cout << "\nColoring of Graph 2 \n";
-    g2.greedyColoring();*/
-
-    Graph g3(100);
-
-    ifstream infile("example.txt");
+    ifstream infile("welsh_powell_input.txt");
     int a, b;
     while (infile >> a >> b)
-        g3.addEdge(a, b); 
-    
+        G.addEdge(a, b); 
 
-    //g3.printGraph();
-    g3.greedyColoring();
+    G.greedyColoring();
     return 0;
 
 }   
